@@ -1,0 +1,55 @@
+Html{
+    font-family: 'Roboto';
+}
+#header{
+    background-color: #1f2937;
+    color:#f9faf8;
+}
+#header .header-logo{
+    font-size:24px;
+}
+
+nav{
+    display:flex;
+    gap:10px;
+    padding-right:20px;
+    justify-content: flex-end;
+}
+.phimage{
+    width:500px;
+    height:250px;
+    background-color: grey;
+}
+.maintitle h1{
+    font-size:48px;
+    font-style:bold;
+    color:#f9faf8;
+}
+/*.titlesub{
+    font:18px, #e5e7eb;
+}figure out later */ 
+#main{
+    display:flex;
+}
+
+.image{
+    flex:1;
+    height:100px;
+    padding:20px;
+    border: 4px soild #3882f6;
+
+}
+
+footer{
+    background-color: #1f2937;
+    color:#f9faf8;
+}
+
+button{
+    background-color:#3882f6;
+}
+#quote{
+    background-color:#e5e7eb;
+    font-size:36px;
+    font-style:light italic;
+}
