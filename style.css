@@ -2,9 +2,7 @@ Html{
     font-family: 'Roboto';
 }
 .container{
-    background-color: #1f2937;
-    color:#f9faf8;
-    width:100%;
+    
 }
 label.logo{
     font-size: 24px;
@@ -13,15 +11,18 @@ label.logo{
     line-height:80px;
 }
 .header{
-    margin:0 auto;
-    width:980px;
+
+    background-color: #1f2937;
+    color:#f9faf8;
+    width:100%;
 
     
 }
 nav{
     margin:0 auto;
+    width:980px;
+    margin:0 auto;
     height:80px;
-    background-color: grey;
  
 }
 nav ul{
@@ -41,14 +42,17 @@ nav ul li a{
     display: block;
     width:100%;
     height:100%;
-
+}
+nav ul li a:hover{
+    color:#3882f6;
 }
 .hero{
-    margin:50px 0px;
     padding-bottom:60px;
-    background-color: #388;
+
     display: flex;
     justify-content: space-between;
+    margin:0 auto;
+    width:980px;
 }
 p{
     font-size: 18px;
@@ -66,13 +70,52 @@ button{
     color:#f9faf8;
     font-weight:bold;
 }
+button:hover{
+    background-color: #e5e7eb;
+    color:#1f2937;
+}
 .ph-image{
     background-color: grey;
     width:400px;
+    margin-top:45px;
 
 
-    height:250px;
+    height:200px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.info-header{
+    width:980px;
+    margin:0 auto;
+    display:flex;
+
+
+    justify-content:center;
+    color: black;
+}
+.r-info{
+    font-size:36px;
+    font-weight:bolder;
+
+}
+.box{
+    background-color: aquamarine;
+    width:980px;
+    margin:0 auto;
+    display:flex;
+
+    justify-content:center;
+}
+.info-box{
+    width:100px;
+    height:100px;
+    border:3px solid #3882f6;
+    border-radius:5px;
+
+    margin-right:20px;
+    margin-top:40px;
+
+
+
 }
