@@ -1,55 +1,78 @@
 Html{
     font-family: 'Roboto';
 }
-#header{
+.container{
     background-color: #1f2937;
     color:#f9faf8;
+    width:100%;
 }
-#header .header-logo{
-    font-size:24px;
+label.logo{
+    font-size: 24px;
+    color:#f9faf8;
+    font-weight:bold;
+    line-height:80px;
 }
+.header{
+    margin:0 auto;
+    width:980px;
 
+    
+}
 nav{
-    display:flex;
-    gap:10px;
-    padding-right:20px;
-    justify-content: flex-end;
-}
-.phimage{
-    width:500px;
-    height:250px;
+    margin:0 auto;
+    height:80px;
     background-color: grey;
+ 
 }
-.maintitle h1{
+nav ul{
+    list-style:none;
+    float:right;
+
+
+}
+nav ul li{
+    display:inline-block;
+    line-height: 60px;
+}
+nav ul li a{
+    text-decoration:none;
+    color:#e5e7eb;
+    padding-right:20px;
+    display: block;
+    width:100%;
+    height:100%;
+
+}
+.hero{
+    margin:50px 0px;
+    padding-bottom:60px;
+    background-color: #388;
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    font-size: 18px;
+}
+.main-text{
     font-size:48px;
-    font-style:bold;
-    color:#f9faf8;
+    font-weight:bolder;
+    line-height:48px;
 }
-/*.titlesub{
-    font:18px, #e5e7eb;
-}figure out later */ 
-#main{
-    display:flex;
-}
-
-.image{
-    flex:1;
-    height:100px;
-    padding:20px;
-    border: 4px soild #3882f6;
-
-}
-
-footer{
-    background-color: #1f2937;
-    color:#f9faf8;
-}
-
 button{
     background-color:#3882f6;
+    border:none;
+    border-radius: 5px;
+    padding:5px 20px;
+    color:#f9faf8;
+    font-weight:bold;
 }
-#quote{
-    background-color:#e5e7eb;
-    font-size:36px;
-    font-style:light italic;
+.ph-image{
+    background-color: grey;
+    width:400px;
+
+
+    height:250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
