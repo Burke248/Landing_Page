@@ -1,6 +1,10 @@
 Html{
     font-family: 'Roboto';
 }
+*{
+    margin:0;
+    padding:0;
+}
 .container{
     
 }
@@ -33,7 +37,7 @@ nav ul{
 }
 nav ul li{
     display:inline-block;
-    line-height: 60px;
+    line-height: 80px;
 }
 nav ul li a{
     text-decoration:none;
@@ -47,6 +51,7 @@ nav ul li a:hover{
     color:#3882f6;
 }
 .hero{
+    padding-top:60px;
     padding-bottom:60px;
 
     display: flex;
@@ -69,6 +74,8 @@ button{
     padding:5px 20px;
     color:#f9faf8;
     font-weight:bold;
+
+    margin-top:10px;
 }
 button:hover{
     background-color: #e5e7eb;
@@ -77,7 +84,7 @@ button:hover{
 .ph-image{
     background-color: grey;
     width:400px;
-    margin-top:45px;
+
 
 
     height:200px;
@@ -89,6 +96,7 @@ button:hover{
     width:980px;
     margin:0 auto;
     display:flex;
+    padding-top:60px;
 
 
     justify-content:center;
@@ -100,12 +108,22 @@ button:hover{
 
 }
 .box{
-    background-color: aquamarine;
+    /*background-color: aquamarine;*/
     width:980px;
     margin:0 auto;
     display:flex;
 
     justify-content:center;
+    padding-bottom:60px;
+}
+.illustration{
+    width:120px;
+    padding: 0 10px;
+}
+.illustration p{
+    padding-top:10px;
+    font-size: 12px;
+    text-align: center;
 }
 .info-box{
     width:100px;
@@ -115,7 +133,28 @@ button:hover{
 
     margin-right:20px;
     margin-top:40px;
+}
+
+section{
+    background-color:#e5e7eb;
+    padding:60px 0;
+    width:100%;
+
+}
+section p{
+    width:680px;
+    margin:0 auto;
+    color:#1f2937;
+    font-size:36px;
+    font-style:italic;
 
 
+}
+h1{
+    padding-top:20px;
+    margin:0 auto;
+    width:680px;
+    display: flex;
 
+    justify-content: end;
 }
