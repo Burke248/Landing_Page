@@ -14,18 +14,16 @@ label.logo{
     font-weight:bold;
     line-height:80px;
 }
-.header{
+.header,footer{
 
     background-color: #1f2937;
     color:#f9faf8;
-    width:100%;
-
-    
+    width:100%;   
 }
+
 nav{
     margin:0 auto;
     width:980px;
-    margin:0 auto;
     height:80px;
  
 }
@@ -157,4 +155,32 @@ h1{
     display: flex;
 
     justify-content: end;
+}
+#CTA{
+    padding:50px 0;
+    margin:80px auto;
+    border-radius:10px;
+    align-content: center;
+    text-align:left;
+    background-color: #3882f6; 
+    height:auto;
+    width:860px;
+    color:#f9faf8;
+    display: flex;
+
+    
+}
+#CTA button{
+    border:2px solid #f9faf8;
+    justify-content: right;
+    margin: 0 auto;
+}
+.call{
+    width:560px;
+    margin:0 auto;
+}
+.copyr{
+    text-align: center;
+    margin:0 auto;
+    padding:20px 0;
 }
